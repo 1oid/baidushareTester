@@ -1,0 +1,30 @@
+[INFO  - 2019-04-21T13:18:31.617Z] GhostDriver - Main - running on port 53381
+[INFO  - 2019-04-21T13:18:32.098Z] Session [f5c6b4d0-6437-11e9-8aa0-8fa08412085c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-04-21T13:18:32.099Z] Session [f5c6b4d0-6437-11e9-8aa0-8fa08412085c] - page.customHeaders:  - {}
+[INFO  - 2019-04-21T13:18:32.099Z] Session [f5c6b4d0-6437-11e9-8aa0-8fa08412085c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-04-21T13:18:32.099Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f5c6b4d0-6437-11e9-8aa0-8fa08412085c
+[ERROR - 2019-04-21T13:18:33.289Z] Session [f5c6b4d0-6437-11e9-8aa0-8fa08412085c] - page.onError - msg: ReferenceError: Can't find variable: Set
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-21T13:18:33.289Z] Session [f5c6b4d0-6437-11e9-8aa0-8fa08412085c] - page.onError - stack:
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  r (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  T (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  32cf (https://pan.baidu.com/nt-static/static/trading-system-wap/js/chunk-vendors.6b29cf78.js:6)
+  o (https://pan.baidu.com/nt-static/static/trading-system-wap/js/home.c0a5b003.js:1)
+  e04b (https://pan.baidu.com/nt-static/static/trading-system-wap/js/home.c0a5b003.js:1)
+  o (https://pan.baidu.com/nt-static/static/trading-system-wap/js/home.c0a5b003.js:1)
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/home.c0a5b003.js:1)
+  o (https://pan.baidu.com/nt-static/static/trading-system-wap/js/home.c0a5b003.js:1)
+  i (https://pan.baidu.com/nt-static/static/trading-system-wap/js/home.c0a5b003.js:1)
+  (anonymous function) (https://pan.baidu.com/nt-static/static/trading-system-wap/js/home.c0a5b003.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-21T13:18:35.641Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1555852715598
+
+  phantomjs://platform/console++.js:263 in error
