@@ -1,4 +1,4 @@
-from baidushare.db import BaiduShareDb
+from db import BaiduShareDb
 from config import *
 
 with open("insert.txt") as f:
